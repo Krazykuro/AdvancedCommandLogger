@@ -1,0 +1,43 @@
+# This config might be dumb lol but bare with it
+# written by krazy_kuro 
+# use for your own sanity
+
+settings:
+  async-webhooks: true
+  console-logging: true
+  log-player-ip: false
+  log-coordinates: true
+  log-command-output: true
+  log-world: true
+  log-ping: true
+  ignore-op: false
+  debug-mode: false
+
+webhooks:
+  staff: "PASTE_WEBHOOK"
+  player: "PASTE_WEBHOOK"
+
+cooldowns:
+  webhook-ms: 1000
+
+ignored-worlds:
+  - "bedwars"
+
+ignored-permissions:
+  - "aclogger.bypass"
+
+ignored-players:
+  - "TestPlayer"
+
+staff-commands:
+  - "/gamemode"
+  - "/give"
+  - "/fly"
+
+player-commands:
+  - "/spawn"
+  - "/hub"
+
+embed-colors:
+  staff: 16711680
+  player: 255

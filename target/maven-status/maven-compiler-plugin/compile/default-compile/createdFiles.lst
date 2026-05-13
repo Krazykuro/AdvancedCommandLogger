@@ -1,0 +1,9 @@
+com\aclogger\utils\OutputParser.class
+com\aclogger\config\ConfigManager.class
+com\aclogger\AdvancedCommandLogger.class
+com\aclogger\listeners\CommandListener.class
+com\aclogger\database\SQLiteManager.class
+com\aclogger\commands\AdminCommand.class
+com\aclogger\discord\EmbedBuilderUtil.class
+com\aclogger\utils\CommandMatcher.class
+com\aclogger\discord\AsyncWebhookManager.class
